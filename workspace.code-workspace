@@ -1,11 +1,13 @@
 {
   "folders": [
-	{
-		"path": "../Responsive-week-2-homework"
-	},
-	{
-		"path": "."
-	}
-],
-  "settings": {}
+    {
+      "path": "../Responsive-week-2-homework"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "my-responsive-advanced-tools-homework-week-3"
+  }
 }

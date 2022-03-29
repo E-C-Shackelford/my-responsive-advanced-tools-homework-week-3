@@ -36,6 +36,11 @@ h3 {
   padding-right: 10px;
   padding-left: 10px;
 }
+h4 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2;
+}
 
 p {
   background: #ffffff;
@@ -117,23 +122,23 @@ p {
   h1,
   h2,
   h3,
+  h4,
   p,
   image,
-  h2.mt-5.text-start,
   div.mt-4.mb-5,
-  h2.text-center,
   .email-link {
     text-align: center;
   }
   h1 {
     font-size: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
-  h2 {
+  h2,
+  h4 {
     font-size: 30px;
   }
   h3 {
-    font-size: 17px;
+    font-size: 18px;
   }
   p {
     font-size: 15px;
