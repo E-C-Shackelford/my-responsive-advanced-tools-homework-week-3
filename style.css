@@ -129,22 +129,48 @@ p {
     text-align: center;
   }
   h1 {
-    font-size: 40px;
+    font-size: 42px;
     padding-bottom: 20px;
   }
   h2,
   h4 {
-    font-size: 30px;
+    font-size: 32px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   p {
-    font-size: 15px;
+    font-size: 17px;
     padding-right: 10px;
     padding-left: 10px;
   }
   .email-link {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 742px) {
+  h3 {
+    font-size: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+@media (max-width: 297px) {
+  .contact-link {
+    text-align: center;
+  }
+  .about-link {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  div.mt-4.mb-5 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 }
